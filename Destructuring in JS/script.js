@@ -1,24 +1,29 @@
 // Destructuring in JavaScript
 
 // create an array
-// let arr = ['Mohib Ullah', 21];
+let arr = ['Mohib Ullah', 21];
 
 // befor destructuring putting values in the variables
 // let name = arr[0]
 // let age = arr[1]
+// console.log(name);
+// console.log(age);
+
 
 
 // putting values in a varaibles using destructuring
 // Desturcturing
-// let [name, age] = arr;
-// console.log(name);
-// console.log(age);
+// let [myName, a] = arr;
+// console.log(myName);
+// console.log(a);
+// console.log(n);
+// console.log(a);
 
 // neasted array
 // let anArr = [1, 2, 3, [4, 5]];
 // console.log(anArr)
 
-// // Destructuring of array
+// // // Destructuring of array
 // let [one, two, three, [four, five]] = anArr;
 
 // console.log(one)
@@ -29,7 +34,7 @@
 
 
 
-// let anArr = ['Mohib Ullah', 44, 'Peshawar'];
+let anArr = ['Mohib Ullah', 44, 'Peshawar'];
 
 // destructuring 
 // rest operator
@@ -75,7 +80,10 @@
 // let user = {
 //   name : 'Mohib Ullah',
 //   age : 25,
-//   city : 'Peshawar'
+//   city : 'Peshawar',
+//   add : {
+//     address : 'Speen Qaber',
+//   }
 // }
 
 
@@ -86,7 +94,7 @@
 
 
 // Destructuring of object
-// let {name, age, city} = user;
+// let {name, age, city, add} = user;
 // console.log(user)
 // console.log(name)
 // console.log(city)

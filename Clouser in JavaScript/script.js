@@ -4,15 +4,15 @@
 // Lexical scope ka matlab hai ke function apne likhne (define karne) ke waqt jo outer environment hai, uske variables ko access kar sakta hai. Jab ek function kisi doosre function ke andar likha jata hai, to inner function ko outer function ke variables use karne ki permission hoti hai
 
 // Example: 
-// function outer() {
-//   var name = "Mohib";
+function outer() {
+  var name = "Mohib";
   
-//   function inner() {
-//     console.log(name); 
-//   }
+  function inner() {
+    console.log(name); 
+  }
   
-//   inner(); 
-// }
+  inner(); 
+}
 
 // outer(); // Ye output karega "Mohib"
 
