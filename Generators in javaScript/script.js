@@ -10,6 +10,7 @@
 //   yield `Class No: 484`;
 // }
 
+
 // let student = s1()
 // console.log(student.next().value)
 // console.log(student.next().value)
@@ -19,16 +20,17 @@
 //   console.log(value)
 // }
 
+
 // ******************************************* //
 
 
 
 // Example 02
-// function* simpleGenerator() {
-//   yield "Pehli value";  // ye function yahan ruk jayega
-//   yield "Dusri value";  // phir yahan rukega
-//   yield "Teesri value"; // aur phir yahan rukega
-// }
+function* simpleGenerator() {
+  yield "Pehli value";  // ye function yahan ruk jayega
+  yield "Dusri value";  // phir yahan rukega
+  yield "Teesri value"; // aur phir yahan rukega
+}
 
 // const gen = simpleGenerator();  // ye generator object banata hai
 // console.log(gen.next().value);  // Output: "Pehli value"

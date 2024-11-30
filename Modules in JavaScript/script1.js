@@ -1,4 +1,4 @@
-// expor data to file "2"
+// export data to file "2"
 export let str = 'Mohib Ullah';
 
 export let anArr = [1, 2, 3, 4];

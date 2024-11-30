@@ -69,7 +69,7 @@
 
 // sort() method: Sorts elements (default is ascending).
 // let arr = ['Mohib Ullah', 484, 'Distt, Khyber', 24801];
-// console.log(arr);
+// // console.log(arr);
 
 // arr.sort();
 // console.log(arr);
@@ -217,8 +217,9 @@
 
 // map() method: Creates a new array from calling a function for every array element.
 // let newArr = [1, 2, 3, 4, 5]
-// let doubled = newArr.map( (el) => {
-//   return el * 2
+// // console.log(newArr)
+// let doubled = newArr.map( (numbers, index) => {
+//   return index;
 // }
 // ); 
 
@@ -344,5 +345,7 @@
 
 
 
+// let anArr = [a, c, d, g, h, f];
+// anArr.sort( (a, b)  )
 
 
